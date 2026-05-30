@@ -1,0 +1,4 @@
+baseURL = 'https://irwilder.github.io/'
+locale = 'en-us'
+title = 'Ian Wilder'
+theme = 'PaperMod'

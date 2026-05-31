@@ -15,7 +15,7 @@ theme = 'PaperMod'
 # PaperMod specific parameters
 [params]
     #Enables the home page info block
-    homeInforParams = true
+    homeInfoParams = true
 
     # Site description used in metadata and SEO
     description = "Cybersecurity Professional"

@@ -1,4 +1,62 @@
+# Site Configuration
+
+# baseURL is the roo URL of my site - changes to your custom domain later
 baseURL = 'https://irwilder.github.io/'
+
+# Language and locale settings
 locale = 'en-us'
+
+# My site's name - appears in browser tab and header
 title = 'Ian Wilder'
+
+# Tells Hugo which theme folder to use
 theme = 'PaperMod'
+
+# PaperMod specific parameters
+[params]
+    #Enables the home page info block
+    homeInforParams = true
+
+    # Site description used in metadata and SEO
+    description = "Cybersecurity Professional"
+
+# Controls what appears in the home page block
+[params.homeInfoParams]
+    # Large heading on home page
+    Title = "Ian Wilder"
+
+    # Subtext beneath my name on the home page
+    Content = "Be Deliberate. Build Your Foundation. Focus Forward."
+
+# Social icons displayed on the home page
+# Each [[params.socialIcons]] block is one icon/link
+[[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/irwilder"
+
+[[params.socialIcons]]
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/ian-wilder-b7b7123b2/"
+
+# Navigation menu items
+# weight controls the order - lower numbers appear first
+[[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[[menu.main]]
+    name = "Certifications"
+    url = "/certs/"
+    weight = 3
+
+[[menu.main]]
+    name = "Resume"
+    url = "/resume/"
+    weight = 4
+    

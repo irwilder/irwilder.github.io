@@ -1,7 +1,7 @@
 # Site Configuration
 
 # baseURL is the roo URL of my site - changes to your custom domain later
-baseURL = 'https://irwilder.github.io/'
+baseURL = 'https://ianwilder.dev'
 
 # Language and locale settings
 locale = 'en-us'

@@ -14,11 +14,22 @@ theme = 'PaperMod'
 
 # PaperMod specific parameters
 [params]
-    #Enables the home page info block
-    homeInfoParams = true
 
-    # Site description used in metadata and SEO
-    description = "Cybersecurity Professional"
+# Site description used in metadata and SEO
+description = "Cybersecurity Professional"
+
+# Enables profile mode on the homepage
+profileMode.enabled = true
+
+# Profile Image Settings
+profileMode.imageURL = "website profile.png"
+profileMode.imageTitle = "Ian Wilder"
+profileMode.imageWidth = 150
+profileMode.imageHeight = 150
+
+# Profile mode title and subtitle
+profileMode.title = "Ian Wilder"
+profileMode.subtitle = "Focus Forward."
 
 # Controls what appears in the home page block
 [params.homeInfoParams]

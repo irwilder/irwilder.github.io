@@ -33,7 +33,7 @@ profileMode.imageHeight = 150
 
 # Profile mode title and subtitle
 profileMode.title = "Ian Wilder"
-profileMode.subtitle = "US Navy | Cybersecurity Professional | Developer"
+profileMode.subtitle = "US Navy | Cybersecurity Professional| Developer"
 
 # Social icons displayed on the home page
 # Each [[params.socialIcons]] block is one icon/link

@@ -63,3 +63,13 @@ h1, h2, h3, h4, h5, h6 {
 .post-content p{
     margin-bottom: 1.5rem;
 }
+
+/* Stack the subtitle on mobile devices */
+@media (max-width: 600px) {
+    .profile_inner span {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.25rem;
+    }
+}

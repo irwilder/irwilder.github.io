@@ -64,6 +64,16 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1.5rem;
 }
 
+/* Reduce gap between nav and profile block */
+.profile {
+    padding-top: 1rem;
+}
+
+/* Reduce gap between social icons and about text */
+.profile_inner {
+    padding-bottom: 0.5rem;
+}
+
 /* Stack the subtitle on mobile devices */
 @media (max-width: 600px) {
     .profile_inner span {

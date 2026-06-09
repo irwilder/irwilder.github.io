@@ -74,6 +74,13 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 0.5rem;
 }
 
+/* Removing full viewport height from profile block */
+.main .profile {
+    min-height: unset;
+    padding: 2rem 0;
+
+}
+
 /* Stack the subtitle on mobile devices */
 @media (max-width: 600px) {
     .profile_inner span {

@@ -65,3 +65,5 @@ profileMode.subtitle = "US Navy | Cybersecurity | Dev"
     url = "/resume/"
     weight = 3
     
+[markup.goldmark.renderer]
+    unsafe = true

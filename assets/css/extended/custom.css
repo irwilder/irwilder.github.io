@@ -81,6 +81,82 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+/* Cert grid layout */
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+/* Individual cert card */
+.cert-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+    background: var(--entry);
+    transition: transform 0.2s ease;
+
+}
+
+.cert-card:hover {
+    transform: translateY(-4px)
+
+}
+
+.cert-card a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.cert-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 0.75rem;
+
+}
+
+/* Dim in-progress cards */
+.cert-card.in-progress img {
+    opacity: 0.45;
+    filter: grayscale(30%)
+}
+
+.cert-name{
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 0.25rem 0;
+
+}
+
+/* Status Labels */
+.cert-status {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    margin-top: 0.4rem;
+}
+
+.earned-label {
+    background: #2a7a4b;
+    color: #fff;
+}
+
+.progress-label {
+    background: #7a6a2a;
+    color: #fff;
+
+}
+
+
 /* Stack the subtitle on mobile devices */
 @media (max-width: 600px) {
     .profile_inner span {

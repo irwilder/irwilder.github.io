@@ -1,6 +1,6 @@
 # Site Configuration
 
-# baseURL is the roo URL of my site - changes to your custom domain later
+# baseURL is the root URL of my site - changes to your custom domain later
 baseURL = 'https://ianwilder.dev'
 
 # Language and locale settings
@@ -33,7 +33,7 @@ profileMode.imageHeight = 150
 
 # Profile mode title and subtitle
 profileMode.title = "Ian Wilder"
-profileMode.subtitle = "Focus Forward."
+profileMode.subtitle = "US Navy | Cybersecurity Professional | Developer"
 
 # Controls what appears in the home page block
 [params.homeInfoParams]

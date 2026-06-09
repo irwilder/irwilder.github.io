@@ -73,3 +73,10 @@ h1, h2, h3, h4, h5, h6 {
         gap: 0.25rem;
     }
 }
+
+/* Reduce top padding on the profile block for mobile */
+@media (max-width: 600px) {
+    .profile {
+        padding-top: 1rem;
+    }
+}

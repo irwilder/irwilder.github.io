@@ -32,7 +32,7 @@ layout: "single"
   </div>
 
   <div class="cert-card in-progress">
-    <img src="/badgeImages/BTL1.png" alt="BTL1 Badge" />
+    <img src="/badgeImages/blueTeamOne.png" alt="BTL1 Badge" />
     <p class="cert-name">Blue Team Level 1 (BTL1)</p>
     <span class="cert-status progress-label">In Progress</span>
   </div>

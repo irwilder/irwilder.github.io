@@ -26,7 +26,7 @@ description = "Cybersecurity Professional"
 profileMode.enabled = true
 
 # Profile Image Settings
-profileMode.imageURL = "websiteProfile.png"
+profileMode.imageURL = "/profilePics/profilePicFour.jpg"
 profileMode.imageTitle = "Ian Wilder"
 profileMode.imageWidth = 150
 profileMode.imageHeight = 150

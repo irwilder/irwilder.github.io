@@ -83,10 +83,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Cert grid layout */
 .cert-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 1.5rem;
     margin-top: 1.5rem;
+
 }
 
 /* Individual cert card */
@@ -99,7 +101,8 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 8px;
     background: var(--entry);
     transition: transform 0.2s ease;
-
+    width: 180px;
+    flex-shrink: 0;
 }
 
 .cert-card:hover {
@@ -156,6 +159,13 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+/* Earned card glow */
+.cert-card.earned {
+    box-shadow: 0 0 12px rgba(74, 144, 217, 0.3);
+    border: 1px solid rgba(74, 144, 217, 0.4);
+    
+}
+
 
 /* Stack the subtitle on mobile devices */
 @media (max-width: 600px) {
@@ -203,3 +213,29 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0.85;
     
 }
+/* Subtle background gradient - breaks up the flat dark background */
+:root[data-theme=dark] body{
+    background: linear-gradient(160deg, #1a1f2e 0%, #0d1117 60%, #1a1f2e 100%);
+    min-height: 100vh;
+}
+
+/* Accent ring around profile photo */
+.profile img {
+    border: 3px solid #4a90d9;
+    padding: 3px;
+    box-shadow: 0 0 12px rgba(74, 144, 217, 0.4);
+
+}
+/* Divider between profile block and About text.*/
+.post-content {
+    border-top: 1px solid rgba(74, 144, 217, 0.3);
+    padding-top: 3rem;
+}
+
+/* About text card */
+.post-content {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 8px;
+    padding-bottom: 2rem;
+}
+

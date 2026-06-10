@@ -1,5 +1,5 @@
 ---
-title: "Certifications"
+
 layout: "single"
 ---
 

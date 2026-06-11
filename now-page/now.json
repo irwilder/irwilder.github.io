@@ -1,0 +1,33 @@
+{
+    "certifications": {
+        "current":{
+            "name": "CompTIA Security+",
+            "target_date": "August 2026",
+            "progress_percent": 25
+        },
+
+        "recent": {
+            "name": "CompTIA Network+",
+            "date_earned": "May 2026"
+        }
+    },
+    "labs": {
+        "platform": "Hack The Box",
+        "profile_url": "https://app.hackthebox.com/users/3599940",
+        "current_focus": "Linux Fundamentals"
+    },
+    "reading": {
+        "title": "Atomic Habits",
+        "author": "James Clear",
+        "genre": "Self-Help / Personal Development"
+    },
+    "school": {
+        "degree": "B.S. Cybersecurity & Information Assurance",
+        "institution": "Western Governors University",
+        "status": "In Progress"
+    },
+    "blog": {
+        "latest_title": "",
+        "latest_url": ""
+    }
+}
